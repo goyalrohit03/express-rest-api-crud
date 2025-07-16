@@ -68,9 +68,12 @@ Each button on the form corresponds to a specific API operation. Here's how to u
 
 express-rest-api-crud/
 ├── index.js           # Main server file
+
 ├── package.json       # Project metadata and dependencies
+
 ├── views/
 │   └── index.ejs      # HTML form rendered using EJS
+
 ├── .gitignore         # Excludes node_modules, env files, etc.
 
 ### **Example output : 
