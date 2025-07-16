@@ -36,7 +36,7 @@ node index.js
 ### 5. Open in your browser
 visit : http://localhost:3000
 
-### **🔑 How to Generate API Token** 
+## **🔑 How to Generate API Token** 
 To access the Secrets API, you need a Bearer Token: 
 - Visit: https://secrets-api.appbrewery.com
 - Click on **"Get your Bearer Token"** 
@@ -44,27 +44,27 @@ To access the Secrets API, you need a Bearer Token:
 - Copy the token provided
 - Paste it into your `index.js` file like this: ```js const yourBearerToken = "your-token-here";
 
-### **📋 How to Use the App** 
+## **📋 How to Use the App** 
 Each button on the form corresponds to a specific API operation. Here's how to use them:  
-#### **GET Secret** 
+### **GET Secret** 
 - Fill in the **ID** field
 - - Click the **GET** button
   - - Retrieves the secret with that ID 
-#### **POST Secret** 
+### **POST Secret** 
 - Fill in **Secret**, **Score**, and **Route**
 - Click the **POST** button
 - Adds a new secret to the database 
-#### **PUT Secret** 
+### **PUT Secret** 
 - Fill in **ID**, **Secret**, **Score**, and **Route**
 - Click the **PUT** button - Completely replaces the existing secret with new data
-#### **PATCH Secret** 
+### **PATCH Secret** 
 - Fill in **ID** and any field(s) you want to update
 - Click the **PATCH** button - Updates only the specified fields
-#### **DELETE Secret** 
+### **DELETE Secret** 
 - Fill in the **ID** field
 - Click the **DELETE** button - Deletes the secret with that ID
 
-### **🗂️ Project Structure**
+## **🗂️ Project Structure**
 express-rest-api-crud/
 
 ├── index.js           # Main server file
@@ -76,5 +76,5 @@ express-rest-api-crud/
 
 ├── .gitignore         # Excludes node_modules, env files, etc.
 
-### Example output : 
+## 📸 Sample Output
 <img width="1237" height="659" alt="Screenshot 2025-07-16 at 7 54 34 PM" src="https://github.com/user-attachments/assets/567541dd-8733-4a25-817b-1a5bbdfc7f3a" />
