@@ -45,21 +45,33 @@ To access the Secrets API, you need a Bearer Token:
 - Paste it into your `index.js` file like this: ```js const yourBearerToken = "your-token-here";
 
 ### **📋 How to Use the App** 
-Each button on the form corresponds to a specific API operation. Here's how to use them: --- 
+Each button on the form corresponds to a specific API operation. Here's how to use them:  
 #### **GET Secret** 
 - Fill in the **ID** field
 - - Click the **GET** button
-  - - Retrieves the secret with that ID ---
+  - - Retrieves the secret with that ID 
 #### **POST Secret** 
 - Fill in **Secret**, **Score**, and **Route**
 - Click the **POST** button
-- Adds a new secret to the database ---
+- Adds a new secret to the database 
 #### **PUT Secret** 
 - Fill in **ID**, **Secret**, **Score**, and **Route**
-- Click the **PUT** button - Completely replaces the existing secret with new data ---
+- Click the **PUT** button - Completely replaces the existing secret with new data
 #### **PATCH Secret** 
 - Fill in **ID** and any field(s) you want to update
-- Click the **PATCH** button - Updates only the specified fields ---
+- Click the **PATCH** button - Updates only the specified fields
 #### **DELETE Secret** 
 - Fill in the **ID** field
-- Click the **DELETE** button - Deletes the secret with that ID 
+- Click the **DELETE** button - Deletes the secret with that ID
+
+### **🗂️ Project Structure**
+
+express-rest-api-crud/
+├── index.js           # Main server file
+├── package.json       # Project metadata and dependencies
+├── views/
+│   └── index.ejs      # HTML form rendered using EJS
+├── .gitignore         # Excludes node_modules, env files, etc.
+
+### **Example output : 
+<img width="1237" height="659" alt="Screenshot 2025-07-16 at 7 54 34 PM" src="https://github.com/user-attachments/assets/567541dd-8733-4a25-817b-1a5bbdfc7f3a" />
