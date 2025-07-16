@@ -66,14 +66,15 @@ Each button on the form corresponds to a specific API operation. Here's how to u
 
 ### **🗂️ Project Structure**
 express-rest-api-crud/
+
 ├── index.js           # Main server file
+
 ├── package.json       # Project metadata and dependencies
+
 ├── views/
-│   └── index.ejs      # HTML form rendered using EJS
+   └── index.ejs      # HTML form rendered using EJS
+
 ├── .gitignore         # Excludes node_modules, env files, etc.
-
----
-
 
 ### Example output : 
 <img width="1237" height="659" alt="Screenshot 2025-07-16 at 7 54 34 PM" src="https://github.com/user-attachments/assets/567541dd-8733-4a25-817b-1a5bbdfc7f3a" />
