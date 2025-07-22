@@ -1,6 +1,7 @@
 # 🔐 Express REST API CRUD – Secrets API Integration
 
 This project is a **Node.js + Express.js** web application that interacts with the [Secrets API](https://secrets-api.appbrewery.com) using RESTful methods (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE`).
+
 ---
 
 ## ⚙️ Tech Stack
