@@ -10,7 +10,6 @@ This project is a **Node.js + Express.js** web application that interacts with t
 - **Express.js**
 - **Axios**
 - **EJS**
-- **body-parser**
 
 ---
 
